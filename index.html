@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Clipboard landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" aria-label="Clipboard home page" class="clipboard-link">
+        <img
+          src="./images/logo.svg"
+          alt="Clipboard logo"
+          class="clipboard-logo"
+        />
+      </a>
+    </header>
+    <main class="c-card-container">
+      <!-- initial section--section-0 -->
+      <section class="main__section-0">
+        <h1>A history of everything you copy</h1>
+        <p>
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <div class="button-group">
+          <a href="#" class="ios-download" aria-label="download for iOS"
+            >Download for iOS</a
+          >
+          <a href="#" class="mac-download" aria-label="Download for Mac"
+            >Download for Mac</a
+          >
+        </div>
+      </section>
+      <!-- section 1 for all the features -- 3 divs -->
+      <section class="main__section-1">
+        <!-- first div in section 1 -->
+        <div class="section-1__div-1 mt-5">
+          <div>
+            <h2>Keep track of your snippets</h2>
+            <p>
+              Clipboard instantly stores any item you copy in the cloud, meaning
+              you can access your snippets immediately on all your devices. Our
+              Mac and iOS apps will help you organize everything.
+            </p>
+          </div>
+          <div class="div-1__image--list">
+            <img
+              src="./images/image-computer.png"
+              alt="computer with a green tick on the monitor screen"
+              class="div-1__image"
+            />
+            <ul class="div-1__list">
+              <li>
+                <h3>Quick Search</h3>
+                <p>
+                  Easily search your snippets by content, category, web address,
+                  application, and more.
+                </p>
+              </li>
+              <li>
+                <h3>iCloud Sync</h3>
+                <p>
+                  Instantly saves and syncs snippets across all your devices.
+                </p>
+              </li>
+              <li>
+                <h3>Complete History</h3>
+                <p>
+                  Retrieve any snippets from the first moment you started using
+                  the app.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- second div in section 1 -->
+        <div class="section-1__div-2 mt-5">
+          <div>
+            <h2>Access Clipboard anywhere</h2>
+            <p>
+              Whether you’re on the go, or at your computer, you can access all
+              your Clipboard snippets in a few simple clicks.
+            </p>
+          </div>
+          <img
+            src="./images/image-devices.png"
+            alt="iphone and ipad with green ticks on their screens"
+            class="div-2__image"
+          />
+        </div>
+        <!-- third div in section 1 -->
+        <div class="section-1__div-3 mt-5">
+          <div>
+            <h2>Supercharge your workflow</h2>
+            <p>We’ve got the tools to boost your productivity.</p>
+          </div>
+          <ul class="div-3__list">
+            <li>
+              <img
+                src="./images/icon-blacklist.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div>
+                <h3>Create blacklists</h3>
+                <p>
+                  Ensure sensitive information never makes its way to your
+                  clipboard by excluding certain sources.
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="./images/icon-text.svg" alt="" aria-hidden="true" />
+              <div>
+                <h3>Plain text snippets</h3>
+                <p>
+                  Remove unwanted formatting from copied text for a consistent
+                  look.
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="./images/icon-preview.svg" alt="" aria-hidden="true" />
+              <div>
+                <h3>Sneak preview</h3>
+                <p>
+                  Quick preview of all snippets on your Clipboard for easy
+                  access.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- The second section for the sponsors and download links -->
+      <section class="main__section-2">
+        <div class="sponsors mt-5">
+          <h2 class="sr-only">Sponsors</h2>
+          <ul>
+            <li>
+              <img
+                src="./images/logo-google.png"
+                alt="Google"
+                aria-label="Google"
+              />
+            </li>
+            <li>
+              <img src="./images/logo-ibm.png" alt="IBM" aria-label="IBM" />
+            </li>
+            <li>
+              <img
+                src="./images/logo-microsoft.png"
+                alt="Microsoft"
+                aria-label="Microsoft"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/logo-hp.png"
+                alt="Hewlett Packard"
+                aria-label="Hewlett Packard"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/logo-vector-graphics.png"
+                alt="Vector Graphics"
+                aria-label="Vector Graphics"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="download-details mt-5">
+          <h2>Clipboard for iOS and Mac OS</h2>
+          <p>
+            Available for free on the App Store. Download for Mac or iOS, sync
+            with iCloud and you’re ready to start adding to your clipboard.
+          </p>
+          <div class="button-group">
+            <a href="#" class="ios-download" aria-label="download for iOS"
+              >Download for iOS</a
+            >
+            <a href="#" class="mac-download" aria-label="Download for Mac"
+              >Download for Mac</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer mt-5" aria-label="landing page footer">
+      <div class="c-card-container footer-1">
+        <div class="footer__img-logo-links">
+          <img src="./images/logo.svg" alt="" aria-hidden="true" />
+          <div class="links">
+            <h2 class="sr-only">Links</h2>
+            <a href="#" aria-label="FAQs">FAQs</a>
+            <a href="#" aria-label="Contact us">Contact Us</a>
+            <a href="#" aria-label="Privacy Policy">Privacy Policy</a>
+            <a href="#" aria-label="Press Kit">Press Kit</a>
+            <a href="#" aria-label="Install Guide">Install Guide</a>
+          </div>
+        </div>
+        <div class="social-media">
+          <h2 class="sr-only">Social Media Links</h2>
+          <a href="#" aria-label="Facebook">
+            <img src="./images/icon-facebook.svg" alt="" aria-hidden="true" />
+          </a>
+          <a href="#" aria-label="Twitter">
+            <img src="./images/icon-twitter.svg" alt="" aria-hidden="true" />
+          </a>
+          <a href="#" aria-label="Instagram">
+            <img src="./images/icon-instagram.svg" alt="" aria-hidden="true" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="attribution" aria-label="attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ibrahim Bello</a>.
+      </p>
+    </footer>
+  </body>
+</html>
